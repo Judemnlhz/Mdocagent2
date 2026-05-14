@@ -1,0 +1,16 @@
+.codex_deps/
+.hydra/
+.idea/
+__pycache__/
+*.py[cod]
+
+data/
+outputs/
+results/
+tmp/
+
+.env
+*.log
+
+.codex_backups/
+.ragatouille/

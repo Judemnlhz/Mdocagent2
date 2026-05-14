@@ -1,0 +1,9 @@
+defaults:
+  - base
+  - _self_
+
+model: deepseek-ai/DeepSeek-V3
+api_key: ${oc.env:SILICONFLOW_API_KEY,}
+base_url: https://api.siliconflow.cn/v1
+module_name: models.openai
+class_name: MyOpenAI
